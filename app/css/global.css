@@ -1,4 +1,14 @@
+/* Colour Scheme
+Light Yellow: #FFEE6F
+Orange: #E87B0C
+Red: #FF0000
+Purple: #900CE8
+Blue: #0D5EFF
+*/
+
 body {
+    background-color: #FFEE6F;
+    margin: 0px;
     opacity: 1;
     -webkit-transition: opacity 1s ease;
     -moz-transition: opacity 1s ease;
@@ -194,8 +204,10 @@ border-color: #fff;
 }
 
 .navbar-inner {
-    -webkit-box-shadow: 0 3px 3px rgba(0,0,0,0.175);
-    box-shadow: 0 3px 3px rgba(0,0,0,0.175);
+    /*-webkit-box-shadow: 0 3px 3px rgba(0,0,0,0.175);
+    box-shadow: 0 3px 3px rgba(0,0,0,0.175);*/
+    height: 50px;
+    background-color: #E87B0C;
 }
 
 /*
